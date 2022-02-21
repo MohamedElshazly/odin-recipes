@@ -14,7 +14,29 @@
     background-image: linear-gradient(to bottom right, #39685d, #562a10);
     height:100vh;
 }
+.content{
+    background-image: linear-gradient(to bottom right, #39685d, #562a10);
+    height:max-content;
+}
 
+.pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.disc, 
+.ing,
+.steps{
+    margin: 5%;
+}
+
+.disc p{
+    margin-top: 4%;
+    font-family: GeorgeItalic;
+    font-size: 24px;
+    text-align: center;
+}
 
 .title{
     color: #fff;
@@ -27,7 +49,9 @@
     font-family: GeorgeItalic;
     text-align: center;
     font-size: 32px;
+    font-weight: 700;
 }
+
 
 .list{
     font-family: GeorgeItalic;
@@ -62,4 +86,20 @@
 .container{
     margin-top: 15%;
     padding: 2px 16px;
+}
+
+.btn{
+    background-color: #7519663f; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none!important;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
 }
